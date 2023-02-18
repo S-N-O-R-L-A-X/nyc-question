@@ -1,0 +1,29 @@
+{
+    "name": "nyc-question",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/S-N-O-R-L-A-X/nyc-question.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/S-N-O-R-L-A-X/nyc-question/issues"
+    },
+    "homepage": "https://github.com/S-N-O-R-L-A-X/nyc-question#readme",
+    "nyc": {
+        "exclude": [
+            "test-helper"
+        ]
+    }
+}

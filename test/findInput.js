@@ -2,7 +2,7 @@ const gene = require("./findString.js");
 
 module.exports = {
     findInput(PATH, f) {
-        const instrumented_code = f.toString();
+        const instrumented_code = f;
         const solutions = [];
         let coverage = 0; // record coverage now
         console.log(PATH);
